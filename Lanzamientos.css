@@ -1,0 +1,186 @@
+
+header {
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    transition: 0.5s;
+    z-index: 1000;
+ }
+ .loga {
+    width: 120px;
+    margin: 5px -90px;
+ }
+ header .logo {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -400px;
+}
+header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -300px ;
+}
+header ul li {
+    list-style: none;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+    background: black;
+    color: brown;
+    box-shadow: 0 0 10px black;
+ }
+ .carro  {
+    width:33px;
+    height: 33px;
+    margin-right: -200px;
+    background-size: 0px;
+    padding: 0%;
+    border: none;
+    margin-left: 40px;
+}
+.login  {
+    width:33px;
+    height: 37px;
+    margin-left: -170px;
+    background-size: 0px;
+    padding: 0%;
+    border: none;
+    margin-left: 0 100px;
+}
+.aliens {
+    width: 500px;
+    right: 430px;
+    margin-top: 250px;
+    margin-left: 110px;
+    border-radius: 40px;
+}
+.trepang {
+    width: 500px;
+    right: 430px;
+    margin-top: 250px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+.forever {
+    width: 500px;
+    right: 430px;
+    margin-top: 250px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+.crash {
+    width: 500px;
+    right: 430px;
+    margin-top: 180px;
+    margin-left: 110px;
+    border-radius: 40px;
+}
+.slavic {
+    width: 500px;
+    right: 430px;
+    margin-top: 180px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+.cyberpunk {
+    width: 500px;
+    right: 430px;
+    margin-top: 180px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+.silent {
+    width: 500px;
+    right: 430px;
+    margin-top: 180px;
+    margin-left: 110px;
+    border-radius: 40px;
+}
+.marvel {
+    width: 500px;
+    right: 430px;
+    margin-top: 180px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+.alone {
+    width: 500px;
+    right: 430px;
+    margin-top: 180px;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+.descent {
+    margin-top: -960px;
+    margin-left: 140px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.dos {
+    margin-top: -90px;
+    margin-left: 740px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.ski {
+    margin-top: -90px;
+    margin-left: 1340px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.rumble {
+    margin-top: 410px;
+    margin-left: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}   
+.punk {
+    margin-top: -90px;
+    margin-left: 740px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.a {
+    margin-top: -90px;
+    margin-left: 1340px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.hill {
+    margin-top: 410px;
+    margin-left: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.man {
+    margin-top: -90px;
+    margin-left: 740px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.in {
+    margin-top: -90px;
+    margin-left: 1350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
