@@ -1,0 +1,369 @@
+body {
+    background-image: url(images/este.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.loga {
+    width: 120px;
+    margin: 5px -90px;
+
+}
+
+header {
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    transition: 0.5s;
+    z-index: 1000;
+}
+
+header .logo {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -400px;
+}
+
+header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -300px ;
+}
+header ul li {
+    list-style: none;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+    background: black;
+    color: brown;
+    box-shadow: 0 0 10px black;
+
+}
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.banner .bg {
+    position: relative;
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+
+}
+
+.banner .bg .content {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+.banner .bg .content h2 {
+    font-size: 4em;
+    color: white;
+    letter-spacing: 1px;
+    margin: 120px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.banner .bg .content p {
+    font-size: 1em;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: -80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.banner .bg .content a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid rgb(244, 244, 244);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+
+}
+
+.banner.bg .content a:hover {
+    background: rgb(16, 16, 15);
+    border: none;
+    color: rgb(77, 8, 8);
+    box-shadow: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner .bg img {
+    width: 600px;
+}
+
+
+/* about */
+.about {
+    position: relative;
+    width: 100%;
+    min-height: 75vh;
+    padding: 0px 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.about .contentBx {
+    width: 50%;
+    margin: 20px;
+}
+
+.about .contentBx h2 {
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+
+
+}
+
+.about .contentBx p {
+    max-width: 600px;
+    text-align: justify;
+    color: white;
+
+
+}
+
+.about .contentBx a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid rgb(244, 244, 244);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.about .contentBx a:hover {
+    background: rgb(69, 8, 8);
+    border: none;
+    color: rgb(115, 2, 2);
+    box-shadow: 0 0 10px black;
+
+}
+
+
+/* Games */
+.games {
+    padding: 0px 100px;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.games h2 {
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.games ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+
+}
+
+.games ul li {
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: white;
+
+
+}
+
+.games ul li.active {
+    background: rgb(244, 244, 244);
+    color: rgb(10, 8, 8);
+    box-shadow: 0 0 10px white;
+
+}
+
+.games .cardBx {
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.games .cardBx .card {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 80px;
+    background: rgb(248, 248, 248);
+    overflow: hidden;
+
+
+}
+
+.games .cardBx .card img {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+
+}
+
+.games .cardBx .card .content {
+    padding: -10px;
+
+
+}
+
+.games .cardBx .card .content h4 {
+    color: rgb(0, 0, 0);
+    margin: 10px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.games .cardBx .card .progress-line {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: rgb(35, 188, 11);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+
+}
+
+.games .cardBx .card .progress-line span {
+    position: absolute;
+    height: 100%;
+    width: 88%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(242, 240, 240);
+    transform-origin: left;
+
+}
+
+.games .cardBx .card .info {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.games .cardBx .card .info p {
+    font-size: 1em;
+    color: rgb(16, 11, 11);
+    margin: 10px 8px;
+    margin-top: -30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.games .cardBx .card .info p span {
+    color: rgb(7, 7, 7);
+
+}
+
+.games .cardBx .card .info a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    margin-top: -30px;
+    border: 1px solid rgb(4, 4, 4);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: rgb(8, 7, 7);
+    letter-spacing: 1px;
+
+
+}
+
+.games .cardBx .card .info a:hover {
+    background: rgb(69, 8, 8);
+    border: none;
+    color: rgb(251, 251, 251);
+    box-shadow: 0 0 10px rgb(243, 241, 241);
+
+
+}
+
+.carro  {
+    width:33px;
+    height: 33px;
+    margin-right: -200px;
+    background-size: 0px;
+    padding: 0%;
+    border: none;
+    margin-left: 40px;
+}
+.login  {
+    width:33px;
+    height: 37px;
+    margin-left: -170px;
+    background-size: 0px;
+    padding: 0%;
+    border: none;
+    margin-left: 0 100px;
+}

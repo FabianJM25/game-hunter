@@ -1,0 +1,10 @@
+body {
+    background-image: url(images/ricardo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    .ted{
+    width: 400px;
+    margin-left: 60px;
+}
